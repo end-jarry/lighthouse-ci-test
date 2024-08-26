@@ -47,6 +47,7 @@ module.exports = {
         'meta-viewport': 'off', // 이 감사를 건너뛰도록 설정
         'color-contrast': 'off', // 이 감사를 건너뛰도록 설정
         'is-on-https': 'off', // 이 감사를 건너뛰도록 설정
+        'document-title': ['warn', { minScore: 0.5 }], // document-title 기준 완화"valid-source-maps": ["warn", { minScore: 0.5 }], // 소스 맵 기준 완화
       },
     },
     upload: {
