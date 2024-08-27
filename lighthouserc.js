@@ -2,7 +2,7 @@ module.exports = {
   ci: {
     collect: {
       // 정적 파일 디렉토리 설정 (사용하지 않을 경우 주석 처리 가능)
-      // staticDistDir: './dist',
+      staticDistDir: null,
       startServerCommand: 'yarn build && yarn start',
       url: ['http://localhost:3000', 'http://localhost:3000/community'], // 테스트할 URL
       numberOfRuns: 3, // 각 URL에 대해 테스트를 3회 수행
